@@ -16,7 +16,9 @@ function PokemonList(props) {
       .catch((error) => console.error(error));
   }
 
+
   let pokemon = getListOf(list, "Pokemon");
+
 
   return (
     <div>
