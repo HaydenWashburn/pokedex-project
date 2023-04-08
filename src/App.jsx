@@ -6,12 +6,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Pokedex Project
+          Pokedex
         </h1>
+      </header>
       <div>
         <PokemonList />
       </div>
-      </header>
     </div>
   );
 }
