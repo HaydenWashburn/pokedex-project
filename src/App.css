@@ -30,6 +30,17 @@
 
 .list{
   list-style-type: none;
+  border: 8px solid black;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, .50fr);
+  margin: auto;
+}
+
+.d-flex{
+  display: flex;
 }
 
 @keyframes App-logo-spin {
