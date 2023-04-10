@@ -1,5 +1,6 @@
 import './App.css';
 import PokemonList from './pokemon/pokemonList';
+import SearchBar  from './components/sideNav';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         </h1>
       </header>
       <div>
+        <SearchBar />
         <PokemonList />
       </div>
     </div>
