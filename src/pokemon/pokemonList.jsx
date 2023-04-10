@@ -24,7 +24,7 @@ function PokemonList(props) {
 
   return (
     <div>
-      <ul>
+      <ul className="list">
         {list.map((pokemon) => {
           return (
             <li key={pokemon.num}>
