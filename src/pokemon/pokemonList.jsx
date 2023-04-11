@@ -27,7 +27,8 @@ function PokemonList(props) {
       <ul className="list grid-container">
         {list.map((pokemon) => {
           return (
-            <li key={pokemon.num} className="d-flex gameboy">
+            <div className="d-flex">
+            <li key={pokemon.num} className="gameboy">
               <h3>{pokemon.name}</h3>
               <p>{pokemon.num}</p>
               <p>
@@ -42,6 +43,7 @@ function PokemonList(props) {
               </p>
               <img src={pokemon.img} />
             </li>
+            </div>
           );
         })}
       </ul>

@@ -43,11 +43,13 @@ font-family: 'Press Start 2P', cursive;
     display: grid;
     background-color: #FFCB05;
     grid-template-columns: repeat(3, .50fr);
-  margin: auto;
+    grid-template-rows: 1fr, 1fr, 1fr;
 }
 
 .d-flex{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button{
