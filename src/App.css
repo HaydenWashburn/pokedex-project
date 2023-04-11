@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Pokemon Solid', sans-serif;
+                                                
 }
 
 .App-logo {
@@ -11,6 +13,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.gameboy{
+font-family: 'Press Start 2P', cursive;
 }
 
 .App-header {
@@ -41,6 +47,12 @@
 
 .d-flex{
   display: flex;
+}
+
+.button{
+  width: 175px;
+  height:50px;
+  margin-bottom: 20px;
 }
 
 @keyframes App-logo-spin {

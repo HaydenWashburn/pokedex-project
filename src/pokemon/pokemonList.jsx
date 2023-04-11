@@ -27,7 +27,7 @@ function PokemonList(props) {
       <ul className="list grid-container">
         {list.map((pokemon) => {
           return (
-            <li key={pokemon.num} className="d-flex">
+            <li key={pokemon.num} className="d-flex gameboy">
               <h3>{pokemon.name}</h3>
               <p>{pokemon.num}</p>
               <p>
