@@ -1,6 +1,6 @@
 function SearchBar(){
 return(
-    <form className="gameboy">
+    <form className="search-form gameboy">
         <input type="text" name='name' id='name'/>
         <p>Name</p>
         <input type="text" name="type" id="type" />

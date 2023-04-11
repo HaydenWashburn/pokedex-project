@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Pokemon Solid', sans-serif;
-                                                
+              font-weight: 25px;                                  
 }
 
 .App-logo {
@@ -58,6 +58,10 @@ font-family: 'Press Start 2P', cursive;
 input[type="text"]{
   font-family: 'Press Start 2P', cursive;
   text-align: center;
+}
+
+.search-form{
+  margin-top: 25px;
 }
 
 @keyframes App-logo-spin {
