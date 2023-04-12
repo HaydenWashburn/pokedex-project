@@ -1,6 +1,5 @@
 import './App.css';
 import PokemonList from './pokemon/pokemonList';
-import SearchBar  from './components/SearchBar';
 
 function App() {
   return (
